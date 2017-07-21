@@ -1,0 +1,21 @@
+{
+    "name": "bcismariu/commons-descendable",
+    "description": "A property accessor helper capable of using dot notation for a mix of arrays and objects",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Bogdan Cismariu",
+            "email": "bogdan.cismariu@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bcismariu\\Commons\\Descendable\\": "src/"
+        }
+    }
+}
